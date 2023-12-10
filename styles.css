@@ -11,7 +11,7 @@
     
 }
 /* apartado de la pagina total */
-main{
+body{
     background-color: hsl(30, 38%, 92%);
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
