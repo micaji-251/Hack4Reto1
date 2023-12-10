@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    margin: 0;
+    font-size: 16px;
+    
+}
+/* apartado de la pagina total */
+main{
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    width: 375px;
+    
+}
+
+/* apartado que contiene el producto */
+.product{
+    width: 320px;
+    padding:25px 5px;
+    border-radius: 50%;
+    border: 10px 15px ;
+    margin: 10px 15px;
+
+
+}
+
+.productimage{
+    width: 320px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.addcart{
+
+    background-color: hsl(158, 36%, 37%);
+    color: whitesmoke;
+    padding: 10px 30%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Fraunces', serif;
+    
+    
+}
+.tipo{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    
+}
+
+.productname{
+
+    font-family: 'Fraunces', serif;
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 2rem;
+    padding-bottom: 15px;
+    line-height: 1.2;
+
+}
+
+.ofert{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.producttext{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 10px;
+    margin-top: -0.5rem;
+    border-radius: 0 0 10px 10px;
+    line-height: 1.5;
+
+}
+
+.description{
+    font-size: 0.9rem;
+    
+}
+
+.precios{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.origprice{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    padding-left: 25px;    
+    
+}
